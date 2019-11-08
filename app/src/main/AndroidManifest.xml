@@ -26,15 +26,5 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name="ru.castasat.evotor.example.service.BeforePositionsEdited"
-            android:enabled="true"
-            android:exported="true"
-            android:permission="ru.evotor.permission.receipt.print.INTERNET_RECEIPT">
-            <intent-filter>
-                <category android:name="android.intent.category.DEFAULT" />
-                <action android:name="evo.v2.receipt.sell.beforePositionsEdited" />
-            </intent-filter>
-        </service>
     </application>
 </manifest>
