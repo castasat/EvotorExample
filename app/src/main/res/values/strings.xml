@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Evotor Example</string>
+    <string name="main_a_btn_open_receipt">Открыть чек с товарами</string>
+    <string name="main_a_btn_internet_receipt">Интернет чеки</string>
+</resources>
